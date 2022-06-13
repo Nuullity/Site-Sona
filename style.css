@@ -1,0 +1,55 @@
+#background{
+   
+background-repeat: no-repeat;
+background-size:cover;
+
+
+
+}
+#suporte {
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+
+
+#titulo {
+
+    color: rgb(28, 190, 208);
+    font-size: 80px;
+    font-family: monospace;
+    text-align: center;
+    margin-top:1%;
+
+
+}
+
+#texto {
+
+    
+
+  
+    color: rgb(241, 215, 89);
+    font-weight: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    
+    width: 90%;
+}
+.historia{
+    text-align: center;
+  margin-left:10% ;
+  margin-bottom: 10%;
+margin-top: 45%; 
+
+}
+#creditos {
+
+  
+    text-align: center;
+  
+
+
+}
