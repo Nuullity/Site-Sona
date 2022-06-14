@@ -1,18 +1,41 @@
-#background{
-   
-background-repeat: no-repeat;
-background-size:cover;
+body {
 
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 1x;
 
 
 }
-#suporte {
-    display: flex;
-    justify-content: end;
-    
-    
+
+
+nav{
+
+background:url("./barra.png");
+
+overflow: hidden;
+height:80px;
+position: fixed;
+top:0px;
+left:0px;
+width: 100%;
+
 }
 
+.icones {
+display: flex;  
+justify-content: space-between;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+
+a{
+text-decoration: none;
+
+
+}
 
 
 #titulo {
@@ -21,35 +44,43 @@ background-size:cover;
     font-size: 80px;
     font-family: monospace;
     text-align: center;
-    margin-top:1%;
-
+    margin-top:-10px; 
 
 }
 
 #texto {
 
-    
 
-  
+
+
     color: rgb(241, 215, 89);
     font-weight: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20;
-    
-    width: 90%;
+ width: 90%;
 }
-.historia{
+
+.historia {
     text-align: center;
-  margin-left:10% ;
-  margin-bottom: 10%;
-margin-top: 45%; 
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top:60%;
 
 }
+
 #creditos {
 
-  
     text-align: center;
-  
+
+}
+
+
+#noob{
+
+display: flex;
+justify-content: end;
+align-items:flex-end ;
+
 
 
 }
